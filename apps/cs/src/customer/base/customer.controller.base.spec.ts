@@ -18,6 +18,7 @@ import { CustomerService } from "../customer.service";
 const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
+  age: 42,
   createdAt: new Date(),
   email: "exampleEmail",
   firstName: "exampleFirstName",
@@ -27,6 +28,7 @@ const CREATE_INPUT = {
   updatedAt: new Date(),
 };
 const CREATE_RESULT = {
+  age: 42,
   createdAt: new Date(),
   email: "exampleEmail",
   firstName: "exampleFirstName",
@@ -37,6 +39,7 @@ const CREATE_RESULT = {
 };
 const FIND_MANY_RESULT = [
   {
+    age: 42,
     createdAt: new Date(),
     email: "exampleEmail",
     firstName: "exampleFirstName",
@@ -47,6 +50,7 @@ const FIND_MANY_RESULT = [
   },
 ];
 const FIND_ONE_RESULT = {
+  age: 42,
   createdAt: new Date(),
   email: "exampleEmail",
   firstName: "exampleFirstName",

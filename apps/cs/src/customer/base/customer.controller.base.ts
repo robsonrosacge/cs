@@ -68,6 +68,7 @@ export class CustomerControllerBase {
           },
         },
 
+        age: true,
         createdAt: true,
         email: true,
         firstName: true,
@@ -102,6 +103,7 @@ export class CustomerControllerBase {
           },
         },
 
+        age: true,
         createdAt: true,
         email: true,
         firstName: true,
@@ -137,6 +139,7 @@ export class CustomerControllerBase {
           },
         },
 
+        age: true,
         createdAt: true,
         email: true,
         firstName: true,
@@ -189,6 +192,7 @@ export class CustomerControllerBase {
             },
           },
 
+          age: true,
           createdAt: true,
           email: true,
           firstName: true,
@@ -232,6 +236,7 @@ export class CustomerControllerBase {
             },
           },
 
+          age: true,
           createdAt: true,
           email: true,
           firstName: true,
